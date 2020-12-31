@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+.service-section .col-lg .service {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+  background: #48baff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 );
+  /* IE6-9 */ }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6; }
+
+.navbar .navbar-nav .nav-item .nav-link, .banner-section .row .col-lg-8 a:hover {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease; }
+
+.navbar {
+  background: #f6f9f9;
+  padding: 20px; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #2d3950;
+    font-weight: 600;
+    text-transform: uppercase; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #15a4fa; }
+
+.banner-section {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat; }
+  .banner-section .row {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 700px; }
+    .banner-section .row .col-lg-8 h1 {
+      font-size: 120px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0; }
+    .banner-section .row .col-lg-8 span {
+      background-color: #15a4fa;
+      display: block;
+      height: 4px;
+      margin-bottom: 20px; }
+    .banner-section .row .col-lg-8 p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0;
+      padding: 0; }
+    .banner-section .row .col-lg-8 a {
+      color: #fff;
+      border: 2px solid #15a4fa;
+      margin-top: 40px;
+      padding: 13px 30px; }
+      .banner-section .row .col-lg-8 a:hover {
+        background-color: #15a4fa; }
+  .banner-section .arrow {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    font-size: 30px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+
+.about-us-section {
+  background: #f6f9f9;
+  padding: 50px 0px;
+  text-align: center; }
+  .about-us-section h2 {
+    margin-bottom: 20px; }
+
+.service-section {
+  padding: 50px 0px;
+  text-align: center; }
+  .service-section .col-lg .service {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    color: #fff;
+    margin: auto; }
+    .service-section .col-lg .service i {
+      text-shadow: 1px 2px 2px #00000096; }
+  .service-section .col-lg h3 {
+    margin-bottom: 0;
+    padding: 15px 0px;
+    font-size: 25px;
+    font-weight: 600; }
+
+.gallery-section {
+  background-color: #f6f9f9;
+  padding: 50px 0px;
+  text-align: center; }
+  .gallery-section h3 {
+    margin-bottom: 0;
+    padding: 15px 0px;
+    font-size: 25px;
+    font-weight: 600; }
+  .gallery-section .row {
+    padding: 50px 0px; }
+    .gallery-section .row .col-lg {
+      padding: 0px; }
+      .gallery-section .row .col-lg a img {
+        vertical-align: middle;
+        border-style: none;
+        margin-bottom: 20px; }
+
+footer {
+  padding: 30px; }
+  footer .row .col-lg p a {
+    color: #15a4fa;
+    font-weight: 500; }
+    footer .row .col-lg p a:hover {
+      color: #2d3950;
+      text-decoration: none; }
+  footer .row .col-lg ul {
+    justify-content: flex-end; }
+    footer .row .col-lg ul li a {
+      margin-left: 10px;
+      background-color: #15a4fa;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      display: block;
+      color: #fff;
+      font-size: 20px;
+      border: 1px solid #15a4fa; }
+      footer .row .col-lg ul li a:hover {
+        background-color: transparent;
+        color: #15a4fa; }
+
+@media (max-width: 575px) {
+  .banner-section .arrow {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    font-size: 30px;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+
+  footer .mobile ul {
+    justify-content: center !important; }
+  footer .mobile p {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
